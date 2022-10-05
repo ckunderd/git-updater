@@ -61,7 +61,7 @@ class GU_Appsero {
 		// Activate insights.
 		$client->insights()
 			->hide_notice()
-			->add_plugin_data()
+			//->add_plugin_data()
 			->init();
 		$client->insights()->optin();
 
